@@ -1,4 +1,4 @@
-# Human → Anime Face Translator (UGATIT-Lite)
+# Human → Anime Face Translator (UGATIT)
 Convert real human faces into anime-style faces using a lightweight CycleGAN (UGATIT-Lite) model.
 
 ## 🚀 Demo
@@ -7,7 +7,7 @@ Upload a face, and the model generates an anime-style version instantly.
 
 ## 💻 Features
 Human → Anime conversion
-CycleGAN (UGATIT-Lite) architecture for lightweight, fast inference
+CycleGAN (UGATIT) architecture for lightweight, fast inference
 Download the generated anime face
 
 ## 📦 Installation (for local use)
@@ -27,10 +27,7 @@ Upload a human face image.
 View or download the anime-styled image.
 
 ## 🧠 Model
-Generator: UGATIT-Lite
+Generator: UGATIT
 Discriminator: PatchGAN
-Input/Output: 128×128 RGB images
+Input/Output: 256×256 RGB images
 Training: Human and anime face datasets
-
-## 📊 Evaluation
-FID (Human → Anime): 21.87
